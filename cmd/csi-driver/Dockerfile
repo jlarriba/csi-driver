@@ -49,7 +49,7 @@ ADD [ "conform/*", "/opt/hpe-storage/lib/" ]
 ADD [ "diag/*",  "/opt/hpe-storage/bin/" ]
 
 # add config files to tune multipath settings
-ADD [ "tune/*", "/opt/hpe-storage/nimbletune/"]
+# ADD [ "tune/*", "/opt/hpe-storage/nimbletune/"]
 
 # add rescan script for resize operation
 ADD ["rescan-scsi-bus.sh", "/usr/bin/rescan-scsi-bus.sh"]
